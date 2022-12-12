@@ -4,28 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="029816e9-7ac9-4dec-8706-fb8dcfe0819c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/FlooringMasteryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/FileDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/FileDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/FlooringMasteryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/FlooringMasteryDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/FlooringMasteryException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dto/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dto/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dto/StateTax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/FlooringMasteryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/FlooringMasteryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ui/FlooringMasteryView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ui/UserIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ui/UserIOImpl.java" afterDir="false" />
+    <list default="true" id="029816e9-7ac9-4dec-8706-fb8dcfe0819c" name="Changes" comment="Basic file structure implemented">
+      <change afterPath="$PROJECT_DIR$/src/FileData/Products.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FileData/Taxes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/BackupFileDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/BackupFileDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/ProductsFileDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/ProductsFileDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/TaxesFileDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/TaxesFileDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dao/FlooringMasteryDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/FlooringMasteryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/FlooringMasteryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/FileDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/FileDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/FileDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/FileDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/FlooringMasteryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/FlooringMasteryDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/FlooringMasteryDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/FlooringMasteryDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/FlooringMasteryException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/FlooringMasteryException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/StateTax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/StateTax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/FlooringMasteryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/FlooringMasteryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/FlooringMasteryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/FlooringMasteryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/FlooringMasteryView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/FlooringMasteryView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/UserIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/UserIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/UserIOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/UserIOImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +41,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -56,15 +61,53 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Modules",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "/Users/Ysabel/IdeaProjects/FlooringMastery",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="dao" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="FlooringMasteryDaoTest.testAddAndGetOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FlooringMastery" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dao" />
+      <option name="MAIN_CLASS_NAME" value="dao.FlooringMasteryDaoTest" />
+      <option name="METHOD_NAME" value="testAddAndGetOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FlooringMasteryDaoTest.testAddAndGetOrder" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -73,8 +116,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667579762775</updated>
-      <workItem from="1667579765223" duration="1326000" />
+      <workItem from="1667579765223" duration="35896000" />
     </task>
+    <task id="LOCAL-00001" summary="Basic file structure implemented">
+      <created>1667581133959</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667581133959</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,5 +141,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Basic file structure implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic file structure implemented" />
   </component>
 </project>

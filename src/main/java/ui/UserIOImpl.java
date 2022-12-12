@@ -101,13 +101,13 @@ public class UserIOImpl implements UserIO{
     }
 
     @Override
-    public BigDecimal readBigDecimal(String prompt, BigDecimal min, BigDecimal max) {
+    public BigDecimal readBigDecimal(String prompt, BigDecimal min) {
         BigDecimal num;
         do {
             System.out.println(prompt);
             num = new BigDecimal(sc.nextLine());
         }
-        while(num.doubleValue() < min.doubleValue() || num.doubleValue() > max.doubleValue() || num==null);
+        while(num.doubleValue() < min.doubleValue() || num==null);
 
         return num;
     }
